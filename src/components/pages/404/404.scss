@@ -1,0 +1,21 @@
+.block-404 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+  .error-img {
+    position: static;
+    transform: none;
+    width: 300px;
+  }
+}
+
+.block-404__text {
+  margin-bottom: 20px;
+}
+
+.block-404__link {
+  text-decoration: underline;
+}
